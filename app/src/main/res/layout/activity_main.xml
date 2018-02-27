@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/diaristei_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/diaristei" />
+
+    <TextView
+        android:id="@+id/diaristei_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/website_text_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Diaristei Maid Services"
+        android:textColor="#616161" />
+
+    <TextView
+        android:id="@+id/website_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phone_text_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="www.diaristei.com.br"
+        android:textColor="#616161" />
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/address_text_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="+55(62)98557-1568"
+        android:textColor="#616161" />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="MDV 17 Street, Moinho dos Ventos, Goiânia, Brazil"
+        android:textColor="#616161" />
+
+</RelativeLayout>
