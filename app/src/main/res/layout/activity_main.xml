@@ -7,10 +7,11 @@
 
     <ImageView
         android:id="@+id/diaristei_image_view"
+        android:contentDescription="@string/contentDescription_diaristei_logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="150dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="@dimen/marginBottom_ImageView"
+        android:layout_marginTop="@dimen/marginTop_ImageView"
         android:src="@drawable/diaristei" />
 
     <TextView
@@ -18,40 +19,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/website_text_view"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="Diaristei Maid Services"
-        android:textColor="#616161" />
+        android:layout_marginLeft="@dimen/marginLeft_TextView"
+        android:layout_marginStart="@dimen/marginStart_TextView"
+        android:layout_marginTop="@dimen/marginTop_TextView"
+        android:text="@string/diaristei_maid_services"
+        android:textColor="@color/textColor_TextView" />
 
     <TextView
         android:id="@+id/website_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/phone_text_view"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="www.diaristei.com.br"
-        android:textColor="#616161" />
+        android:layout_marginLeft="@dimen/marginLeft_TextView"
+        android:layout_marginStart="@dimen/marginStart_TextView"
+        android:layout_marginTop="@dimen/marginTop_TextView"
+        android:autoLink="web"
+        android:text="@string/diaristei_site"
+        android:textColor="@color/textColor_TextView" />
 
     <TextView
         android:id="@+id/phone_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/address_text_view"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="+55(62)98557-1568"
-        android:textColor="#616161" />
+        android:layout_marginLeft="@dimen/marginLeft_TextView"
+        android:layout_marginStart="@dimen/marginStart_TextView"
+        android:layout_marginTop="@dimen/marginTop_TextView"
+        android:autoLink="phone"
+        android:text="@string/phone_TextView"
+        android:textColor="@color/textColor_TextView" />
 
     <TextView
         android:id="@+id/address_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="MDV 17 Street, Moinho dos Ventos, Goiânia, Brazil"
-        android:textColor="#616161" />
+        android:layout_marginBottom="@dimen/marginBottom_TextView"
+        android:layout_marginLeft="@dimen/marginLeft_TextView"
+        android:layout_marginStart="@dimen/marginStart_TextView"
+        android:layout_marginTop="@dimen/marginTop_TextView"
+        android:text="@string/address_TextView"
+        android:textColor="@color/textColor_TextView" />
 
 </RelativeLayout>

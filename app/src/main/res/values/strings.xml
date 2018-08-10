@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Single Screen App</string>
+    <string name="diaristei_maid_services">Diaristei Maid Services</string>
+    <string name="diaristei_site">www.diaristei.com.br</string>
+    <string name="phone_TextView">+5562984425599</string>
+    <string name="address_TextView">MXC 18 Street, Gold Village, Goiania, Brazil</string>
+    <string name="contentDescription_diaristei_logo">Diaristei Logo</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginBottom_ImageView">150dp</dimen>
+    <dimen name="marginTop_ImageView">20dp</dimen>
+    <dimen name="marginLeft_TextView">30dp</dimen>
+    <dimen name="marginStart_TextView">30dp</dimen>
+    <dimen name="marginTop_TextView">10dp</dimen>
+    <dimen name="marginBottom_TextView">20dp</dimen>
+</resources>
