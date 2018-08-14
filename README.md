@@ -3,9 +3,7 @@ Single Screen App (Project 1) made with Udacity. This project is part of Android
 
 Project Overview: Design and implement a single screen app that displays information about a fictional small business.
 
-Requirements
-
-Your design must include:
+The design must include:
 
 • Business name
 
